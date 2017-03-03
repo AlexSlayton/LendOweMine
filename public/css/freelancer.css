@@ -21,9 +21,9 @@ a:active,
 a.active {
   color: none !important;
   outline: none;
+  text-decoration: none;
 }
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -31,6 +31,11 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+}
+h2{
+  font-family: Pacifico;
+  font-weight: 700; 
+  color: #ec9435;
 }
 hr.star-light,
 hr.star-primary {
